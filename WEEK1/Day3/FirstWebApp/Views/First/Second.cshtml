@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/style.css">
+    <title>Second</title>
+</head>
+<body>
+    <h1>Second</h1>
+    <h4>UserName : @ViewBag.Name</h4>
+    <h4>Favorite Number : @ViewBag.FavNumber</h4>
+    @{
+        for(var i =0; i<ViewBag.FavNumber; i++)
+        {
+            if (i% 2 ==0)
+            {
+            <h5> The Number is even @i</h5>
+            }
+        } 
+    }
+    <a href="/dashboard">Go Back</a>
+</body>
+</html>

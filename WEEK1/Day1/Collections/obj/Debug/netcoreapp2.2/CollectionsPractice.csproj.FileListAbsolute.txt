@@ -1,0 +1,11 @@
+C:\Users\MTanzil\Documents\CodingDojo\csharp_stack\CollectionsPractice\bin\Debug\netcoreapp2.2\CollectionsPractice.deps.json
+C:\Users\MTanzil\Documents\CodingDojo\csharp_stack\CollectionsPractice\bin\Debug\netcoreapp2.2\CollectionsPractice.runtimeconfig.json
+C:\Users\MTanzil\Documents\CodingDojo\csharp_stack\CollectionsPractice\bin\Debug\netcoreapp2.2\CollectionsPractice.runtimeconfig.dev.json
+C:\Users\MTanzil\Documents\CodingDojo\csharp_stack\CollectionsPractice\bin\Debug\netcoreapp2.2\CollectionsPractice.dll
+C:\Users\MTanzil\Documents\CodingDojo\csharp_stack\CollectionsPractice\bin\Debug\netcoreapp2.2\CollectionsPractice.pdb
+C:\Users\MTanzil\Documents\CodingDojo\csharp_stack\CollectionsPractice\obj\Debug\netcoreapp2.2\CollectionsPractice.csprojAssemblyReference.cache
+C:\Users\MTanzil\Documents\CodingDojo\csharp_stack\CollectionsPractice\obj\Debug\netcoreapp2.2\CollectionsPractice.csproj.CoreCompileInputs.cache
+C:\Users\MTanzil\Documents\CodingDojo\csharp_stack\CollectionsPractice\obj\Debug\netcoreapp2.2\CollectionsPractice.AssemblyInfoInputs.cache
+C:\Users\MTanzil\Documents\CodingDojo\csharp_stack\CollectionsPractice\obj\Debug\netcoreapp2.2\CollectionsPractice.AssemblyInfo.cs
+C:\Users\MTanzil\Documents\CodingDojo\csharp_stack\CollectionsPractice\obj\Debug\netcoreapp2.2\CollectionsPractice.dll
+C:\Users\MTanzil\Documents\CodingDojo\csharp_stack\CollectionsPractice\obj\Debug\netcoreapp2.2\CollectionsPractice.pdb

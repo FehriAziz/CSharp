@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "YykRNZdRnxunEl/fpqmWIfgmilg5o0pQbEm0rn1QbD8=",
+  "Source": "FirstWebApp",
+  "BasePath": "_content/FirstWebApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "FirstWebApp\\wwwroot",
+      "Source": "FirstWebApp",
+      "ContentRoot": "C:\\Users\\aziza\\OneDrive\\Bureau\\Coding_Dojo\\C.Sharp\\WEEK1\\Day3\\FirstWebApp\\wwwroot\\",
+      "BasePath": "_content/FirstWebApp",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\aziza\\OneDrive\\Bureau\\Coding_Dojo\\C.Sharp\\WEEK1\\Day3\\FirstWebApp\\wwwroot\\css\\style.css",
+      "SourceId": "FirstWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\aziza\\OneDrive\\Bureau\\Coding_Dojo\\C.Sharp\\WEEK1\\Day3\\FirstWebApp\\wwwroot\\",
+      "BasePath": "_content/FirstWebApp",
+      "RelativePath": "css/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
+    }
+  ]
+}
