@@ -1,0 +1,63 @@
+﻿@{
+  ViewData["Title"] = "Home Page";
+}
+
+<h1> Add Your Favorite Song 🎵🎶🎤🎙️🎧</h1>
+<div class="card shadow border p-3">
+  <h4 class="card-head text-danger text-center">Old Form Version</h4>
+  <div class="card-body">
+    <form action="songs/create" method="post">
+      <div class="form-group mb-3">
+        <label for="" class="form-label">Title</label>
+        <input type="text" class="form-control" name="Title">
+      </div>
+      <div class="form-group mb-3">
+        <label for="" class="form-label">Singer</label>
+        <input type="text" class="form-control" name="Singer">
+      </div>
+      <div class="form-group mb-3">
+        <label for="" class="form-label">Release Year</label>
+        <input type="number" class="form-control" name="ReleaseYear">
+      </div>
+      <div class="d-flex gap-2 justify-content-center mb-3">
+        <label for="" class="form-check-label">Is Explicit ?</label>
+        <input type="checkbox" class="form-check" name="IsExplicit">
+      </div>
+      <button class="btn btn-primary w-100">Post Your Song 🎧🎙️🎤 </button>
+
+    </form>
+  </div>
+</div>
+
+<br>
+
+@model Song
+<div class="card shadow border p-3">
+  <h4 class="card-head text-danger text-center">Thanks ASP.NET Core Form</h4>
+  <div class="card-body">
+    <form asp-action="CreateSong" asp-controller="Home" method="post">
+      <div class="form-group mb-3">
+        <label asp-for="Title" class="form-label"></label>
+        <input class="form-control" asp-for="Title">
+        <span asp-validation-for="Title"></span>
+      </div>
+      <div class="form-group mb-3">
+        <label asp-for="Singer" class="form-label"></label>
+        <input class="form-control" asp-for="Singer">
+        <span asp-validation-for="Singer"></span>
+      </div>
+      <div class="form-group mb-3">
+        <label asp-for="ReleaseYear" class="form-label"></label>
+        <input class="form-control" asp-for="ReleaseYear">
+        <span asp-validation-for="ReleaseYear"> </span>
+      </div>
+      <div class="d-flex gap-2 justify-content-center mb-3">
+        <label asp-for="IsExplicit" class="form-check-label"></label>
+        <input class="form-check" asp-for="IsExplicit">
+        <span asp-validation-for="IsExplicit" ></span>
+      </div>
+      <button class="btn btn-success w-100">Post Your Song 🎧🎙️🎤 </button>
+
+    </form>
+  </div>
+</div>

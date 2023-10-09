@@ -1,0 +1,11 @@
+C:\Users\Kyle\Documents\C#-.NET\RandomPasscode\bin\Debug\netcoreapp2.0\RandomPasscode.deps.json
+C:\Users\Kyle\Documents\C#-.NET\RandomPasscode\bin\Debug\netcoreapp2.0\RandomPasscode.runtimeconfig.json
+C:\Users\Kyle\Documents\C#-.NET\RandomPasscode\bin\Debug\netcoreapp2.0\RandomPasscode.runtimeconfig.dev.json
+C:\Users\Kyle\Documents\C#-.NET\RandomPasscode\bin\Debug\netcoreapp2.0\RandomPasscode.dll
+C:\Users\Kyle\Documents\C#-.NET\RandomPasscode\bin\Debug\netcoreapp2.0\RandomPasscode.pdb
+C:\Users\Kyle\Documents\C#-.NET\RandomPasscode\obj\Debug\netcoreapp2.0\RandomPasscode.csprojResolveAssemblyReference.cache
+C:\Users\Kyle\Documents\C#-.NET\RandomPasscode\obj\Debug\netcoreapp2.0\RandomPasscode.csproj.CoreCompileInputs.cache
+C:\Users\Kyle\Documents\C#-.NET\RandomPasscode\obj\Debug\netcoreapp2.0\RandomPasscode.AssemblyInfoInputs.cache
+C:\Users\Kyle\Documents\C#-.NET\RandomPasscode\obj\Debug\netcoreapp2.0\RandomPasscode.AssemblyInfo.cs
+C:\Users\Kyle\Documents\C#-.NET\RandomPasscode\obj\Debug\netcoreapp2.0\RandomPasscode.dll
+C:\Users\Kyle\Documents\C#-.NET\RandomPasscode\obj\Debug\netcoreapp2.0\RandomPasscode.pdb
