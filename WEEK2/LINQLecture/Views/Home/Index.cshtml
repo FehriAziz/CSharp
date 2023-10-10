@@ -1,0 +1,266 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<div class="text-center">
+    <h1 class="display-4">All Games 🕹️🕹️🎰</h1>
+    <div class="card shadow">
+        <div class="card-body">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Title</th>
+                        <th>Price</th>
+                        <th>Genre</th>
+                        <th>Rating</th>
+                        <th>Platform</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @{
+                        foreach (Game game in ViewBag.AllGamesList)
+                        {
+                            <tr>
+                                <td>@game.Title</td>
+                                <td>@game.Price.ToString("C")</td>
+                                <td>@game.Genre</td>
+                                <td>@game.Rating</td>
+                                <td>@game.Platform</td>
+                            </tr>
+                        }
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="card shadow mb-3">
+    <h4 class="display-4" >All PC Games 💻🖥️💾</h4>
+        <div class="card-body">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Title</th>
+                        <th>Price</th>
+                        <th>Genre</th>
+                        <th>Rating</th>
+                        <th>Platform</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @{
+                        foreach (Game game in ViewBag.PcGames)
+                        {
+                            <tr>
+                                <td>@game.Title</td>
+                                <td>@game.Price.ToString("C")</td>
+                                <td>@game.Genre</td>
+                                <td>@game.Rating</td>
+                                <td>@game.Platform</td>
+                            </tr>
+                        }
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="card shadow mb-3">
+    <h4 class="display-4" >All FREE GAMES 💻🆓🆓</h4>
+        <div class="card-body">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Title</th>
+                        <th>Price</th>
+                        <th>Genre</th>
+                        <th>Rating</th>
+                        <th>Platform</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @{
+                        foreach (Game game in ViewBag.FreeGames)
+                        {
+                            <tr>
+                                <td>@game.Title</td>
+                                <td>@game.Price.ToString("C")</td>
+                                <td>@game.Genre</td>
+                                <td>@game.Rating</td>
+                                <td>@game.Platform</td>
+                            </tr>
+                        }
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="card shadow mb-3">
+    <h4 class="display-4" >First 3 Games 💻🥉</h4>
+        <div class="card-body">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Title</th>
+                        <th>Price</th>
+                        <th>Genre</th>
+                        <th>Rating</th>
+                        <th>Platform</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @{
+                        foreach (Game game in ViewBag.FirstThreeGames)
+                        {
+                            <tr>
+                                <td>@game.Title</td>
+                                <td>@game.Price.ToString("C")</td>
+                                <td>@game.Genre</td>
+                                <td>@game.Rating</td>
+                                <td>@game.Platform</td>
+                            </tr>
+                        }
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="card shadow mb-3">
+    <h4 class="display-4" >FIRST 3 ALL PLATFORM GAMES 👌3️⃣</h4>
+        <div class="card-body">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Title</th>
+                        <th>Price</th>
+                        <th>Genre</th>
+                        <th>Rating</th>
+                        <th>Platform</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @{
+                        foreach (Game game in ViewBag.FirstThreeAllPlatformGames)
+                        {
+                            <tr>
+                                <td>@game.Title</td>
+                                <td>@game.Price.ToString("C")</td>
+                                <td>@game.Genre</td>
+                                <td>@game.Rating</td>
+                                <td>@game.Platform</td>
+                            </tr>
+                        }
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="card shadow mb-3">
+    <h4 class="display-4" >ALL GAMES ORDERED BY TITLE 🪜🕹️</h4>
+        <div class="card-body">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Title</th>
+                        <th>Price</th>
+                        <th>Genre</th>
+                        <th>Rating</th>
+                        <th>Platform</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @{
+                        foreach (Game game in ViewBag.TitleOrderedGames)
+                        {
+                            <tr>
+                                <td>@game.Title</td>
+                                <td>@game.Price.ToString("C")</td>
+                                <td>@game.Genre</td>
+                                <td>@game.Rating</td>
+                                <td>@game.Platform</td>
+                            </tr>
+                        }
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="card shadow mb-3">
+    <h4 class="display-4" >Title And Price Ordred Games 🕹️🪙</h4>
+        <div class="card-body">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Title</th>
+                        <th>Price</th>
+                        <th>Genre</th>
+                        <th>Rating</th>
+                        <th>Platform</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @{
+                        foreach (Game game in ViewBag.TitleAndPriceOrderedGames)
+                        {
+                            <tr>
+                                <td>@game.Title</td>
+                                <td>@game.Price.ToString("C")</td>
+                                <td>@game.Genre</td>
+                                <td>@game.Rating</td>
+                                <td>@game.Platform</td>
+                            </tr>
+                        }
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="card shadow mb-3">
+    <h4 class="display-4" >Price and Title Ordred Games 🪙🕹️</h4>
+        <div class="card-body">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Title</th>
+                        <th>Price</th>
+                        <th>Genre</th>
+                        <th>Rating</th>
+                        <th>Platform</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @{
+                        foreach (Game game in ViewBag.PriceAndTitleOrderedGames)
+                        {
+                            <tr>
+                                <td>@game.Title</td>
+                                <td>@game.Price.ToString("C")</td>
+                                <td>@game.Genre</td>
+                                <td>@game.Rating</td>
+                                <td>@game.Platform</td>
+                            </tr>
+                        }
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+        <div class="card shadow mb-3">
+
+    <div class="card shadow">
+        <div class="card-head">@ViewBag.FavoriteGame.Title</div>
+        <card class="body">
+            <div class="card-text">Price : @ViewBag.FavoriteGame.Price.ToString("C")</div>
+            <div class="card-text">Genre :@ViewBag.FavoriteGame.Genre.</div>
+            <div class="card-text">Rating :@ViewBag.FavoriteGame.Rating.</div>
+            <div class="card-text">Platform :@ViewBag.FavoriteGame.Platform.</div>
+        </card>
+    </div>
+
+    @{
+        foreach (string title in ViewBag.AllTitles)
+        {
+            <h4> 🔥 @title 🔥</h4>
+        }
+    }
+    
+</div>

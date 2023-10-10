@@ -1,0 +1,268 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4 fw-bold"> All Eruption 🌋🌋</h1>
+
+    @*-----------------------------1---------------------------- *@
+    <div class="card shadow  mb-3 p-4">
+        <h4 class="card-head text-primary">List Eruption</h4>
+        <div class="card-body">
+            <table class="table table-striped hover">
+                <thead>
+                    <tr>
+                        <th>Volcano :</th>
+                        <th>Year :</th>
+                        <th>Location :</th>
+                        <th>ElevationInMeters :</th>
+                        <th>Type :</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @{
+                        foreach (Eruption eruption in ViewBag.AllEruptions)
+                        {
+                            <tr>
+                                <td>@eruption.Volcano</td>
+                                <td>@eruption.Year</td>
+                                <td>@eruption.Location</td>
+                                <td>@eruption.ElevationInMeters</td>
+                                <td>@eruption.Type</td>
+                            </tr>
+                        }
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+    @*-----------------------------2------------------------------- *@
+
+    <div class="card shadow  mb-3 p-4">
+        <h4 class="card-head text-primary"> 🎃 Eruption 🎃</h4>
+
+        <div class="card-head h4">First task : @ViewBag.FirstChileEruption.Volcano</div>
+        <card-body>
+            <div class="card-text">Price : @ViewBag.FirstChileEruption.Location</div>
+            <div class="card-text">Platform : @ViewBag.FirstChileEruption.ElevationInMeters.</div>
+            <div class="card-text">Rating : @ViewBag.FirstChileEruption.Type</div>
+            <div class="card-text">Genre :@ViewBag.FirstChileEruption.Year </div>
+        </card-body>
+    </div>
+</div>
+@*---------------------------------3---------------------------------- *@
+
+
+@if (ViewBag.Exist)
+{
+    <div class="card shadow  mb-3 p-4 text-center">
+        <div class="card-head h4">Second task : @ViewBag.Hawaiian.Volcano</div>
+        <card-body>
+            <div class="card-text">Price : @ViewBag.Hawaiian.Location</div>
+            <div class="card-text">Platform : @ViewBag.Hawaiian.ElevationInMeters.</div>
+            <div class="card-text">Rating : @ViewBag.Hawaiian.Type</div>
+            <div class="card-text">Genre :@ViewBag.Hawaiian.Year </div>
+        </card-body>
+    </div>
+}
+else
+{
+    <h1>There is No Erruption in Hawai 👻👻</h1>
+}
+@*----------------------------------------------4---------------------------------------------------- *@
+
+
+
+<div class="card shadow  mb-3 p-4 text-center">
+    <div class="card-head h4">Third task : @ViewBag.NewZ.Volcano</div>
+    <card-body>
+        <div class="card-text">Price : @ViewBag.NewZ.Location</div>
+        <div class="card-text">Platform : @ViewBag.NewZ.ElevationInMeters.</div>
+        <div class="card-text">Rating : @ViewBag.NewZ.Type</div>
+        <div class="card-text">Genre :@ViewBag.NewZ.Year </div>
+    </card-body>
+</div>
+@*------------------------------------------------5---------------------------------------------------- *@
+
+
+
+
+<div class="text-center">
+    <div class="card shadow  mb-3 p-4">
+
+        <h4 class="card-head">List Eruptions Higher than 2000 meters 🍉🍉</h4>
+        <div class="card-body">
+            <table class="table table table-striped">
+                <thead>
+                    <tr>
+                        <th>Volcano :</th>
+                        <th>Year :</th>
+                        <th>Location :</th>
+                        <th>Elevation :</th>
+                        <th>Type :</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @{
+                        foreach (Eruption eruption in ViewBag.AllEruptionHigh)
+                        {
+                            <tr>
+                                <td>@eruption.Volcano</td>
+                                <td>@eruption.Year</td>
+                                <td>@eruption.Location</td>
+                                <td>@eruption.ElevationInMeters</td>
+                                <td>@eruption.Type</td>
+                            </tr>
+                        }
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+    @*-------------------------------------------------6----------------------------------------------------- *@
+
+
+
+    <div class="text-center">
+        <div class="card shadow  mb-3 p-4">
+
+            <h4 class="card-head">Volcano Start With L 🦄🦄</h4>
+            <div class="card-body">
+                <table class="table table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Volcano :</th>
+                            <th>Year :</th>
+                            <th>Location :</th>
+                            <th>Elevation :</th>
+                            <th>Type :</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @{
+                            foreach (Eruption eruption in ViewBag.StartL)
+                            {
+                                <tr>
+                                    <td>@eruption.Volcano</td>
+                                    <td>@eruption.Year</td>
+                                    <td>@eruption.Location</td>
+                                    <td>@eruption.ElevationInMeters</td>
+                                    <td>@eruption.Type</td>
+                                </tr>
+                            }
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        @*------------------------------------------------7----------------------------------------------------*@
+
+
+
+        <div class="card shadow  mb-3 p-4">
+            <div class="card-head h4"> Highest Elevation 🚀🚀</div>
+            <card-body>
+                <div class="card-text">Price : </div>
+                <div class="card-text">Platform : @ViewBag.Highest</div>
+                <div class="card-text">Rating : </div>
+                <div class="card-text">Genre : </div>
+            </card-body>
+        </div>
+
+        @*----------------------------------------------------8---------------------------------------------------*@
+
+
+        <div class="card shadow  mb-3 p-4">
+            <h4 class="card-head">Highest Volcano Name 🤖🤖</h4>
+            <div class="card-body">
+                <table class="table table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Volcano :</th>
+                            <th>Year :</th>
+                            <th>Location :</th>
+                            <th>Elevation :</th>
+                            <th>Type :</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @{
+                            foreach (Eruption eruption in ViewBag.HighName)
+                            {
+                                <tr>
+                                    <td>@eruption.Volcano</td>
+                                    <td>@eruption.Year</td>
+                                    <td>@eruption.Location</td>
+                                    <td>@eruption.ElevationInMeters</td>
+                                    <td>@eruption.Type</td>
+                                </tr>
+                            }
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        @*--------------------------------------------------9-------------------------------------------------*@
+
+
+        <div class="card shadow  mb-3 p-4">
+            <h4 class="card-head">Eruption ordered by Name 🍄🍄 </h4>
+            <div class="card-body">
+                <table class="table table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Volcano :</th>
+                            <th>Year :</th>
+                            <th>Location :</th>
+                            <th>Elevation :</th>
+                            <th>Type :</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @{
+                            foreach (Eruption eruption in ViewBag.Alpha)
+                            {
+                                <tr>
+                                    <td>@eruption.Volcano</td>
+                                    <td>@eruption.Year</td>
+                                    <td>@eruption.Location</td>
+                                    <td>@eruption.ElevationInMeters</td>
+                                    <td>@eruption.Type</td>
+                                </tr>
+                            }
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        @*----------------------------------------------10------------------------------------------------ *@
+        <div class="card shadow  mb-3 p-4">
+            <h4 class="card-head">Eruption ordered by Name and before 1000 👹👹 </h4>
+            <div class="card-body">
+                <table class="table table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Volcano</th>
+                            <th>Year</th>
+                            <th>Location</th>
+                            <th>Elevation</th>
+                            <th>Type</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @{
+                            foreach (Eruption eruption in ViewBag.Beta)
+                            {
+                                <tr>
+                                    <td>@eruption.Volcano</td>
+                                    <td>@eruption.Year</td>
+                                    <td>@eruption.Location</td>
+                                    <td>@eruption.ElevationInMeters</td>
+                                    <td>@eruption.Type</td>
+                                </tr>
+                            }
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>

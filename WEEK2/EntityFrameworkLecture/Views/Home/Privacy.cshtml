@@ -1,0 +1,47 @@
+﻿@{
+    ViewData["Title"] = "Privacy Policy";
+}
+@model List<Song>
+<div class="text-center">
+    <h1 class="display-4">All Songs </h1>
+</div>
+<div class="card shadow">
+    <div class="card-body">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th class="text-light">Song Id</th>
+                    <th class="text-light">Title</th>
+                    <th class="text-light">Release Year</th>
+                    <th class="text-light">Singer</th>
+                    <th class="text-light">Actions</th>
+                </tr>
+                <t-body>
+                    @{
+                        foreach (Song song in Model)
+                        {
+                            <tr>
+                                <td class="text-light">@song.SongId</td>
+                                <td class="text-light">@song.Title</td>
+                                <td class="text-light">@song.ReleaseYear</td>
+                                <td class="text-light">@song.Singer</td>
+                                <td class="d-flex justify-content-evenly align-items-center">
+                                    <button class="btn btn-primary">Details</button>
+                                    <form action="" method="post">
+                                        <input type="submit" value="Update" class="btn btn-warning">
+                                    </form>
+                                    <form asp-action="DeleteSong" asp-controller="Home" method="post">
+                                        <input type="submit" value="Delete" class="btn btn-danger">
+                                        <input type="hidden" name="songId" value="@song.SongId"> 
+
+                                    </form>
+                                </td>
+                            </tr>
+                        }
+                    }
+                </t-body>
+            </thead>
+        </table>
+    </div>
+</div>
+
