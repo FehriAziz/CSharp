@@ -6,39 +6,47 @@ build_property.ProjectTypeGuids =
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
-build_property.RootNamespace = LINQEruption
-build_property.RootNamespace = LINQEruption
-build_property.ProjectDir = c:\Users\aziza\Home\Bureau\Coding_Dojo\C.Sharp\My CSHARP\WEEK2\LINQEruption\
+build_property.RootNamespace = CruDelicious
+build_property.RootNamespace = CruDelicious
+build_property.ProjectDir = C:\Users\Admin\Downloads\CruDelicious\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = c:\Users\aziza\Home\Bureau\Coding_Dojo\C.Sharp\My CSHARP\WEEK2\LINQEruption
+build_property.MSBuildProjectDirectory = C:\Users\Admin\Downloads\CruDelicious
 build_property._RazorSourceGeneratorDebug = 
 
-[c:/Users/aziza/Home/Bureau/Coding_Dojo/C.Sharp/My CSHARP/WEEK2/LINQEruption/Views/Home/Index.cshtml]
+[C:/Users/Admin/Downloads/CruDelicious/Views/Home/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Downloads/CruDelicious/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/aziza/Home/Bureau/Coding_Dojo/C.Sharp/My CSHARP/WEEK2/LINQEruption/Views/Home/Privacy.cshtml]
+[C:/Users/Admin/Downloads/CruDelicious/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/aziza/Home/Bureau/Coding_Dojo/C.Sharp/My CSHARP/WEEK2/LINQEruption/Views/Shared/Error.cshtml]
+[C:/Users/Admin/Downloads/CruDelicious/Views/Home/Show.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaG93LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Downloads/CruDelicious/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/aziza/Home/Bureau/Coding_Dojo/C.Sharp/My CSHARP/WEEK2/LINQEruption/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Admin/Downloads/CruDelicious/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/aziza/Home/Bureau/Coding_Dojo/C.Sharp/My CSHARP/WEEK2/LINQEruption/Views/_ViewImports.cshtml]
+[C:/Users/Admin/Downloads/CruDelicious/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/aziza/Home/Bureau/Coding_Dojo/C.Sharp/My CSHARP/WEEK2/LINQEruption/Views/_ViewStart.cshtml]
+[C:/Users/Admin/Downloads/CruDelicious/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/aziza/Home/Bureau/Coding_Dojo/C.Sharp/My CSHARP/WEEK2/LINQEruption/Views/Shared/_Layout.cshtml]
+[C:/Users/Admin/Downloads/CruDelicious/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-gca46xgish
+build_metadata.AdditionalFiles.CssScope = b-xstbl01ugb

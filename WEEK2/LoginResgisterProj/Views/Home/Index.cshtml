@@ -1,0 +1,53 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model User 
+<div class="text-center">
+<div class="row">
+    <div class="col-6">
+        <h2 class="card-header h2">Register</h2>
+        <div class="card-body">
+        <form asp-action="Register" asp-controller="Home" method="post">
+            <div class="form-group mb-3">
+                <label asp-for="Username" class="form-label"></label>
+                <input asp-for="Username" class="form-control">
+                <span class="text-danger" asp-validation-for="Username"></span>
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="LuckyNumber" class="form-label"></label>
+                <input asp-for="LuckyNumber" class="form-control">
+                <span class="text-danger" asp-validation-for="LuckyNumber"></span>
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="Email" class="form-label"></label>
+                <input asp-for="Email" class="form-control">
+                <span class="text-danger" asp-validation-for="Email"></span>
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="Password" class="form-label"></label>
+                <input asp-for="Password" class="form-control">
+                <span class="text-danger" asp-validation-for="Password"></span>
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="ConfirmPassword" class="form-label"></label>
+                <input asp-for="ConfirmPassword" class="form-control">
+                <span class="text-danger" asp-validation-for="ConfirmPassword"></span>
+            </div>
+            <div class="form-group mb-3 d-flex gap-3">
+                <label asp-for="IsSubscribed" class="form-label"></label>
+                <input asp-for="IsSubscribed" class="form-check">
+                <span class="text-danger" asp-validation-for="IsSubscribed"></span>
+            </div>
+            <div class="text-end">
+                <input type="submit" class="btn btn-primary w-25" value="Register">
+            </div>
+        </form>
+        </div>
+    </div>
+    <div class="col-6">
+        <h2>Login</h2>
+        <form action="">
+        </form>
+    </div>
+</div> 
+</div>
