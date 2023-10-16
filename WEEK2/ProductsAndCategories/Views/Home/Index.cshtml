@@ -1,0 +1,49 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@using Microsoft.AspNetCore.Mvc.TagHelpers;
+@model Product
+<div class="text-center">
+    <h1 class="display-4">Products</h1>
+    <div class="row">
+        <div class="col-6">
+            <h1>New Product</h1>
+            <form asp-action="createProduct" asp-controller="Home" method="post">
+                <div class="form-group">
+                    <label asp-for="Name"></label>
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                    <input asp-for="Name" class="form-control" />
+                </div>
+                <br>
+                <div class="form-group">
+                    <label asp-for="Description"></label>
+                    <span asp-validation-for="Description" class="text-danger"></span>
+                    <input asp-for="Description" class="form-control" />
+                </div>
+                <br>
+                <div class="form-group">
+                    <label asp-for="Price"></label>
+                    <span asp-validation-for="Price" class="text-danger"></span>
+                    <input asp-for="Price" class="form-control" />
+                </div>
+                <br>
+                <button class="btn btn-primary">Create</button>
+            </form>
+        </div>
+        <div class="col-6">
+            <h1>All Products</h1>
+            @if (ViewBag.AllProducts != null)
+            {
+                @foreach (Product p in ViewBag.AllProducts)
+                {
+                    <tr>
+                        <td><a href="/products/@p.ProductId">@p.Name</a></td>
+                        @* <td><a href="">@p.Name</a></td> *@
+                        @* <td>@p.Description</td>
+                <td>@p.Price</td> *@
+                    </tr>
+                }
+            }
+        </div>
+    </div>
+</div>

@@ -1,0 +1,72 @@
+﻿@{
+    ViewData["Title"] = "Dashboard";
+    int? userId = (int)Context.Session.GetInt32("userId");
+    string? userName = Context.Session.GetString("username");
+}
+@model Post
+@await Html.PartialAsync("_Navbar")
+<div class="container">
+
+    <div>
+        <div class="text-center">
+            <h1 class="display-4">Welcome , @userName!</h1>
+        </div>
+        <div class="row mt-5">
+            <div class="col-6">
+                <div class="border border-rounded p-2 bg-light bg-gradient-10 text-center">
+                    <h3>Add Post</h3>
+                    <form asp-action="CreatePost" asp-controller="Home" method="post">
+                        <input type="hidden" asp-for="UserId" value="@userId">
+                        <div class="form-group mb-3">
+                            <label asp-for="Title" class="form-label"></label>
+                            <input asp-for="Title" class="form-control">
+                            <span class="text-danger" asp-validation-for="Title"></span>
+                        </div>
+                        <div class="form-group mb-3">
+                            <label asp-for="Subject" class="form-label"></label>
+                            <input asp-for="Subject" class="form-control">
+                            <span class="text-danger" asp-validation-for="Subject"></span>
+                        </div>
+                        <div class="form-group mb-3">
+                            <label asp-for="Content" class="form-label"></label>
+                            <textarea asp-for="Content" class="form-control" cols="30" rows="10"></textarea>
+                            <span class="text-danger" asp-validation-for="Content"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <input type="submit" class="btn btn-outline-primary w-50" value="Post">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-6">
+                @* .border.bg-light.bg-gardient-25>table.table-striped.hover>thead+body *@
+                <div class="border bg-light bg-gardient-25">
+                    <table class="table table-stripped hover">
+                        <thead>
+                            <tr >
+                                <th>ID</th>
+                                <th>Title</th>
+                                <th>Subject</th>
+                                <th>Content</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @{
+                                foreach (Post post in ViewBag.AllPosts)
+                                {
+                                    <tr>
+                                        <td>@post.PostId</td>
+                                        <td>@post.Title</td>
+                                        <td>@post.Subject</td>
+                                        <td>@post.Content</td>
+                                    </tr>
+                                }
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

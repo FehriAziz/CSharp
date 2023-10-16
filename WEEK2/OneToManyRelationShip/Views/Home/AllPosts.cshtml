@@ -1,0 +1,60 @@
+
+@{
+    ViewData["Title"] = "All Posts";
+    int  userId = (int)Context.Session.GetInt32("userId");
+    string? userName = Context.Session.GetString("username");
+}
+@model AllPostsView
+@await Html.PartialAsync("_Navbar")
+<div class="container">
+
+    <div>
+        <div class="text-center">
+            <h1 class="display-4">Welcome , @userName!</h1>
+            <h1 class="display-4">All Post List</h1>
+        </div>
+            <div class="">
+                <div class="border bg-light bg-gardient-25">
+                    <table class="table table-stripped hover">
+                        <thead>
+                            <tr >
+                                <th>ID</th>
+                                <th>Title</th>
+                                <th>Subject</th>
+                                <th>Content</th>
+                                <th>Poster</th>
+                                <th>Like</th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @{
+                                foreach (Post post in Model.AllPosts)
+                                {
+                                    <tr>
+                                        <td>@post.PostId</td>
+                                        <td>@post.Title</td>
+                                        <td>@post.Subject</td>
+                                        <td>@post.Content</td>
+                                        <td>@post.Poster.Username</td>
+                                        <td> 
+                                            <form asp-action="Like" asp-controller="Home" method="post">
+                                                <p> PostId : @post.PostId</p>
+                                                
+                                            
+
+                                                <input type="hidden" asp-for="@Model.Like.UserId" value="@userId">
+                                                <input type="hidden" asp-for="@Model.Like.PostId" value="@post.PostId">
+                                                <input type="submit" value="👍" class="btn btn-success">
+                                            </form>
+                                            <button class="btn btn-success">👍</button>
+                                        </td>
+                                    </tr>
+                                }
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+</div>

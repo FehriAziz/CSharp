@@ -1,0 +1,105 @@
+C:\Users\Admin\Desktop\coding_Dojo\.NET\CSHARP\Week02\Day04\Class\OneToManyRelationShip\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Admin\Desktop\coding_Dojo\.NET\CSHARP\Week02\Day04\Class\OneToManyRelationShip\bin\Debug\net6.0\appsettings.json
+C:\Users\Admin\Desktop\coding_Dojo\.NET\CSHARP\Week02\Day04\Class\OneToManyRelationShip\bin\Debug\net6.0\OneToManyRelationShip.staticwebassets.runtime.json
+C:\Users\Admin\Desktop\coding_Dojo\.NET\CSHARP\Week02\Day04\Class\OneToManyRelationShip\bin\Debug\net6.0\OneToManyRelationShip.exe
+C:\Users\Admin\Desktop\coding_Dojo\.NET\CSHARP\Week02\Day04\Class\OneToManyRelationShip\bin\Debug\net6.0\OneToManyRelationShip.deps.json
+C:\Users\Admin\Desktop\coding_Dojo\.NET\CSHARP\Week02\Day04\Class\OneToManyRelationShip\bin\Debug\net6.0\OneToManyRelationShip.runtimeconfig.json
+C:\Users\Admin\Desktop\coding_Dojo\.NET\CSHARP\Week02\Day04\Class\OneToManyRelationShip\bin\Debug\net6.0\OneToManyRelationShip.dll
+C:\Users\Admin\Desktop\coding_Dojo\.NET\CSHARP\Week02\Day04\Class\OneToManyRelationShip\bin\Debug\net6.0\OneToManyRelationShip.pdb
+C:\Users\Admin\Desktop\coding_Dojo\.NET\CSHARP\Week02\Day04\Class\OneToManyRelationShip\bin\Debug\net6.0\Humanizer.dll
+C:\Users\Admin\Desktop\coding_Dojo\.NET\CSHARP\Week02\Day04\Class\OneToManyRelationShip\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Admin\Desktop\coding_Dojo\.NET\CSHARP\Week02\Day04\Class\OneToManyRelationShip\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Admin\Desktop\coding_Dojo\.NET\CSHARP\Week02\Day04\Class\OneToManyRelationShip\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Admin\Desktop\coding_Dojo\.NET\CSHARP\Week02\Day04\Class\OneToManyRelationShip\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Admin\Desktop\coding_Dojo\.NET\CSHARP\Week02\Day04\Class\OneToManyRelationShip\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Admin\Desktop\coding_Dojo\.NET\CSHARP\Week02\Day04\Class\OneToManyRelationShip\bin\Debug\net6.0\MySqlConnector.dll
+C:\Users\Admin\Desktop\coding_Dojo\.NET\CSHARP\Week02\Day04\Class\OneToManyRelationShip\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\Admin\Desktop\coding_Dojo\.NET\CSHARP\Week02\Day04\Class\OneToManyRelationShip\obj\Debug\net6.0\OneToManyRelationShip.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\coding_Dojo\.NET\CSHARP\Week02\Day04\Class\OneToManyRelationShip\obj\Debug\net6.0\OneToManyRelationShip.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\coding_Dojo\.NET\CSHARP\Week02\Day04\Class\OneToManyRelationShip\obj\Debug\net6.0\OneToManyRelationShip.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\coding_Dojo\.NET\CSHARP\Week02\Day04\Class\OneToManyRelationShip\obj\Debug\net6.0\OneToManyRelationShip.AssemblyInfo.cs
+C:\Users\Admin\Desktop\coding_Dojo\.NET\CSHARP\Week02\Day04\Class\OneToManyRelationShip\obj\Debug\net6.0\OneToManyRelationShip.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\coding_Dojo\.NET\CSHARP\Week02\Day04\Class\OneToManyRelationShip\obj\Debug\net6.0\OneToManyRelationShip.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Admin\Desktop\coding_Dojo\.NET\CSHARP\Week02\Day04\Class\OneToManyRelationShip\obj\Debug\net6.0\OneToManyRelationShip.RazorAssemblyInfo.cache
+C:\Users\Admin\Desktop\coding_Dojo\.NET\CSHARP\Week02\Day04\Class\OneToManyRelationShip\obj\Debug\net6.0\OneToManyRelationShip.RazorAssemblyInfo.cs
+C:\Users\Admin\Desktop\coding_Dojo\.NET\CSHARP\Week02\Day04\Class\OneToManyRelationShip\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Admin\Desktop\coding_Dojo\.NET\CSHARP\Week02\Day04\Class\OneToManyRelationShip\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Admin\Desktop\coding_Dojo\.NET\CSHARP\Week02\Day04\Class\OneToManyRelationShip\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Admin\Desktop\coding_Dojo\.NET\CSHARP\Week02\Day04\Class\OneToManyRelationShip\obj\Debug\net6.0\scopedcss\bundle\OneToManyRelationShip.styles.css
+C:\Users\Admin\Desktop\coding_Dojo\.NET\CSHARP\Week02\Day04\Class\OneToManyRelationShip\obj\Debug\net6.0\scopedcss\projectbundle\OneToManyRelationShip.bundle.scp.css
+C:\Users\Admin\Desktop\coding_Dojo\.NET\CSHARP\Week02\Day04\Class\OneToManyRelationShip\obj\Debug\net6.0\OneToManyRelationShip.csproj.CopyComplete
+C:\Users\Admin\Desktop\coding_Dojo\.NET\CSHARP\Week02\Day04\Class\OneToManyRelationShip\obj\Debug\net6.0\OneToManyRelationShip.dll
+C:\Users\Admin\Desktop\coding_Dojo\.NET\CSHARP\Week02\Day04\Class\OneToManyRelationShip\obj\Debug\net6.0\refint\OneToManyRelationShip.dll
+C:\Users\Admin\Desktop\coding_Dojo\.NET\CSHARP\Week02\Day04\Class\OneToManyRelationShip\obj\Debug\net6.0\OneToManyRelationShip.pdb
+C:\Users\Admin\Desktop\coding_Dojo\.NET\CSHARP\Week02\Day04\Class\OneToManyRelationShip\obj\Debug\net6.0\OneToManyRelationShip.genruntimeconfig.cache
+C:\Users\Admin\Desktop\coding_Dojo\.NET\CSHARP\Week02\Day04\Class\OneToManyRelationShip\obj\Debug\net6.0\ref\OneToManyRelationShip.dll
+C:\Users\aziza\Home\Bureau\OneToManyRelationShip\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\aziza\Home\Bureau\OneToManyRelationShip\bin\Debug\net6.0\appsettings.json
+C:\Users\aziza\Home\Bureau\OneToManyRelationShip\bin\Debug\net6.0\OneToManyRelationShip.staticwebassets.runtime.json
+C:\Users\aziza\Home\Bureau\OneToManyRelationShip\bin\Debug\net6.0\OneToManyRelationShip.exe
+C:\Users\aziza\Home\Bureau\OneToManyRelationShip\bin\Debug\net6.0\OneToManyRelationShip.deps.json
+C:\Users\aziza\Home\Bureau\OneToManyRelationShip\bin\Debug\net6.0\OneToManyRelationShip.runtimeconfig.json
+C:\Users\aziza\Home\Bureau\OneToManyRelationShip\bin\Debug\net6.0\OneToManyRelationShip.dll
+C:\Users\aziza\Home\Bureau\OneToManyRelationShip\bin\Debug\net6.0\OneToManyRelationShip.pdb
+C:\Users\aziza\Home\Bureau\OneToManyRelationShip\bin\Debug\net6.0\Humanizer.dll
+C:\Users\aziza\Home\Bureau\OneToManyRelationShip\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\aziza\Home\Bureau\OneToManyRelationShip\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\aziza\Home\Bureau\OneToManyRelationShip\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\aziza\Home\Bureau\OneToManyRelationShip\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\aziza\Home\Bureau\OneToManyRelationShip\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\aziza\Home\Bureau\OneToManyRelationShip\bin\Debug\net6.0\MySqlConnector.dll
+C:\Users\aziza\Home\Bureau\OneToManyRelationShip\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\aziza\Home\Bureau\OneToManyRelationShip\obj\Debug\net6.0\OneToManyRelationShip.csproj.AssemblyReference.cache
+C:\Users\aziza\Home\Bureau\OneToManyRelationShip\obj\Debug\net6.0\OneToManyRelationShip.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aziza\Home\Bureau\OneToManyRelationShip\obj\Debug\net6.0\OneToManyRelationShip.AssemblyInfoInputs.cache
+C:\Users\aziza\Home\Bureau\OneToManyRelationShip\obj\Debug\net6.0\OneToManyRelationShip.AssemblyInfo.cs
+C:\Users\aziza\Home\Bureau\OneToManyRelationShip\obj\Debug\net6.0\OneToManyRelationShip.csproj.CoreCompileInputs.cache
+C:\Users\aziza\Home\Bureau\OneToManyRelationShip\obj\Debug\net6.0\OneToManyRelationShip.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\aziza\Home\Bureau\OneToManyRelationShip\obj\Debug\net6.0\OneToManyRelationShip.RazorAssemblyInfo.cache
+C:\Users\aziza\Home\Bureau\OneToManyRelationShip\obj\Debug\net6.0\OneToManyRelationShip.RazorAssemblyInfo.cs
+C:\Users\aziza\Home\Bureau\OneToManyRelationShip\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\aziza\Home\Bureau\OneToManyRelationShip\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\aziza\Home\Bureau\OneToManyRelationShip\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\aziza\Home\Bureau\OneToManyRelationShip\obj\Debug\net6.0\scopedcss\bundle\OneToManyRelationShip.styles.css
+C:\Users\aziza\Home\Bureau\OneToManyRelationShip\obj\Debug\net6.0\scopedcss\projectbundle\OneToManyRelationShip.bundle.scp.css
+C:\Users\aziza\Home\Bureau\OneToManyRelationShip\obj\Debug\net6.0\OneToManyRelationShip.csproj.CopyComplete
+C:\Users\aziza\Home\Bureau\OneToManyRelationShip\obj\Debug\net6.0\OneToManyRelationShip.dll
+C:\Users\aziza\Home\Bureau\OneToManyRelationShip\obj\Debug\net6.0\refint\OneToManyRelationShip.dll
+C:\Users\aziza\Home\Bureau\OneToManyRelationShip\obj\Debug\net6.0\OneToManyRelationShip.pdb
+C:\Users\aziza\Home\Bureau\OneToManyRelationShip\obj\Debug\net6.0\OneToManyRelationShip.genruntimeconfig.cache
+C:\Users\aziza\Home\Bureau\OneToManyRelationShip\obj\Debug\net6.0\ref\OneToManyRelationShip.dll
+C:\Users\aziza\Home\Bureau\Coding_Dojo\C.Sharp\My CSHARP\WEEK2\OneToManyRelationShip\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\aziza\Home\Bureau\Coding_Dojo\C.Sharp\My CSHARP\WEEK2\OneToManyRelationShip\bin\Debug\net6.0\appsettings.json
+C:\Users\aziza\Home\Bureau\Coding_Dojo\C.Sharp\My CSHARP\WEEK2\OneToManyRelationShip\bin\Debug\net6.0\OneToManyRelationShip.staticwebassets.runtime.json
+C:\Users\aziza\Home\Bureau\Coding_Dojo\C.Sharp\My CSHARP\WEEK2\OneToManyRelationShip\bin\Debug\net6.0\OneToManyRelationShip.exe
+C:\Users\aziza\Home\Bureau\Coding_Dojo\C.Sharp\My CSHARP\WEEK2\OneToManyRelationShip\bin\Debug\net6.0\OneToManyRelationShip.deps.json
+C:\Users\aziza\Home\Bureau\Coding_Dojo\C.Sharp\My CSHARP\WEEK2\OneToManyRelationShip\bin\Debug\net6.0\OneToManyRelationShip.runtimeconfig.json
+C:\Users\aziza\Home\Bureau\Coding_Dojo\C.Sharp\My CSHARP\WEEK2\OneToManyRelationShip\bin\Debug\net6.0\OneToManyRelationShip.dll
+C:\Users\aziza\Home\Bureau\Coding_Dojo\C.Sharp\My CSHARP\WEEK2\OneToManyRelationShip\bin\Debug\net6.0\OneToManyRelationShip.pdb
+C:\Users\aziza\Home\Bureau\Coding_Dojo\C.Sharp\My CSHARP\WEEK2\OneToManyRelationShip\bin\Debug\net6.0\Humanizer.dll
+C:\Users\aziza\Home\Bureau\Coding_Dojo\C.Sharp\My CSHARP\WEEK2\OneToManyRelationShip\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\aziza\Home\Bureau\Coding_Dojo\C.Sharp\My CSHARP\WEEK2\OneToManyRelationShip\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\aziza\Home\Bureau\Coding_Dojo\C.Sharp\My CSHARP\WEEK2\OneToManyRelationShip\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\aziza\Home\Bureau\Coding_Dojo\C.Sharp\My CSHARP\WEEK2\OneToManyRelationShip\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\aziza\Home\Bureau\Coding_Dojo\C.Sharp\My CSHARP\WEEK2\OneToManyRelationShip\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\aziza\Home\Bureau\Coding_Dojo\C.Sharp\My CSHARP\WEEK2\OneToManyRelationShip\bin\Debug\net6.0\MySqlConnector.dll
+C:\Users\aziza\Home\Bureau\Coding_Dojo\C.Sharp\My CSHARP\WEEK2\OneToManyRelationShip\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\aziza\Home\Bureau\Coding_Dojo\C.Sharp\My CSHARP\WEEK2\OneToManyRelationShip\obj\Debug\net6.0\OneToManyRelationShip.csproj.AssemblyReference.cache
+C:\Users\aziza\Home\Bureau\Coding_Dojo\C.Sharp\My CSHARP\WEEK2\OneToManyRelationShip\obj\Debug\net6.0\OneToManyRelationShip.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aziza\Home\Bureau\Coding_Dojo\C.Sharp\My CSHARP\WEEK2\OneToManyRelationShip\obj\Debug\net6.0\OneToManyRelationShip.AssemblyInfoInputs.cache
+C:\Users\aziza\Home\Bureau\Coding_Dojo\C.Sharp\My CSHARP\WEEK2\OneToManyRelationShip\obj\Debug\net6.0\OneToManyRelationShip.AssemblyInfo.cs
+C:\Users\aziza\Home\Bureau\Coding_Dojo\C.Sharp\My CSHARP\WEEK2\OneToManyRelationShip\obj\Debug\net6.0\OneToManyRelationShip.csproj.CoreCompileInputs.cache
+C:\Users\aziza\Home\Bureau\Coding_Dojo\C.Sharp\My CSHARP\WEEK2\OneToManyRelationShip\obj\Debug\net6.0\OneToManyRelationShip.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\aziza\Home\Bureau\Coding_Dojo\C.Sharp\My CSHARP\WEEK2\OneToManyRelationShip\obj\Debug\net6.0\OneToManyRelationShip.RazorAssemblyInfo.cache
+C:\Users\aziza\Home\Bureau\Coding_Dojo\C.Sharp\My CSHARP\WEEK2\OneToManyRelationShip\obj\Debug\net6.0\OneToManyRelationShip.RazorAssemblyInfo.cs
+C:\Users\aziza\Home\Bureau\Coding_Dojo\C.Sharp\My CSHARP\WEEK2\OneToManyRelationShip\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\aziza\Home\Bureau\Coding_Dojo\C.Sharp\My CSHARP\WEEK2\OneToManyRelationShip\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\aziza\Home\Bureau\Coding_Dojo\C.Sharp\My CSHARP\WEEK2\OneToManyRelationShip\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\aziza\Home\Bureau\Coding_Dojo\C.Sharp\My CSHARP\WEEK2\OneToManyRelationShip\obj\Debug\net6.0\scopedcss\bundle\OneToManyRelationShip.styles.css
+C:\Users\aziza\Home\Bureau\Coding_Dojo\C.Sharp\My CSHARP\WEEK2\OneToManyRelationShip\obj\Debug\net6.0\scopedcss\projectbundle\OneToManyRelationShip.bundle.scp.css
+C:\Users\aziza\Home\Bureau\Coding_Dojo\C.Sharp\My CSHARP\WEEK2\OneToManyRelationShip\obj\Debug\net6.0\OneToManyRelationShip.csproj.CopyComplete
+C:\Users\aziza\Home\Bureau\Coding_Dojo\C.Sharp\My CSHARP\WEEK2\OneToManyRelationShip\obj\Debug\net6.0\OneToManyRelationShip.dll
+C:\Users\aziza\Home\Bureau\Coding_Dojo\C.Sharp\My CSHARP\WEEK2\OneToManyRelationShip\obj\Debug\net6.0\refint\OneToManyRelationShip.dll
+C:\Users\aziza\Home\Bureau\Coding_Dojo\C.Sharp\My CSHARP\WEEK2\OneToManyRelationShip\obj\Debug\net6.0\OneToManyRelationShip.pdb
+C:\Users\aziza\Home\Bureau\Coding_Dojo\C.Sharp\My CSHARP\WEEK2\OneToManyRelationShip\obj\Debug\net6.0\OneToManyRelationShip.genruntimeconfig.cache
+C:\Users\aziza\Home\Bureau\Coding_Dojo\C.Sharp\My CSHARP\WEEK2\OneToManyRelationShip\obj\Debug\net6.0\ref\OneToManyRelationShip.dll

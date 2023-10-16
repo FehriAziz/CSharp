@@ -1,0 +1,38 @@
+@model Product
+<div class="text-center">
+    <h1>@Model.Name</h1>
+    <div class="text-center row">
+        <div class="col-6">
+            <h4>Categories</h4>
+            @if (@Model.Categories.Count > 0)
+            {
+                @foreach (Association asc in @Model.Categories)
+                {
+                    <h6 class="text-primary">@asc.Categorie.Name</h6>
+                }
+            }
+        </div>
+        <div class="col-6">
+            <h4>Add Categorie</h4>
+            <form asp-action="AddAssociation" asp-controller="Home" method="post">
+                <div class="form-group">
+                    <select name="CategorieId" class="form-control">
+                        @foreach (Categorie m in ViewBag.AllCategories)
+                        {
+                            @* prevent to display already existant categories *@
+                            if (!Model.Categories.Any(a => a.CategorieId == m.CategorieId))
+                            {
+                                <option value="@m.CategorieId">@m.Name</option>
+                            }
+                        }
+                    </select>
+
+                    <input type="hidden" name="ProductId" value="@Model.ProductId">
+                    <input type="hidden" name="Action" value="OneProduct">
+                </div>
+                <br>
+                <input type="submit" value="Add Association" class="btn btn-warning">
+            </form>
+        </div>
+    </div>
+</div>
